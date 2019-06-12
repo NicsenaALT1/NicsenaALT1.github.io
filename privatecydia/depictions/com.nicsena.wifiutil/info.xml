@@ -1,7 +1,17 @@
 package
-    id com.nicsena.wifiutil id
-    name WifiUtil name
-    version 1.0.0-98 version
+    idcom.nicsena.wifiutilid
+    nameWifiUtilname
+    version1.0.0-98version
+	<compatibility>
+		<firmware>
+            <miniOS>12.0</maxiOS>
+			<maxiOS>12.1.2</maxiOS>
+		    <otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
     dependenciesdependencies
     descriptionlist
         description iOS command-line tool for WiFi-related operation.
