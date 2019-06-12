@@ -1,0 +1,8 @@
+Origin: Nicsena's PRIVATE Repo
+Label: nicsena
+Suite: stable
+Version: 1.0
+Codename: nicsena
+Architecture: iphoneos-arm
+Components: main
+Description: Nicsena's PRIVATE Cydia Repo. Do not share this private repo with anyone. Contact Nicsena on reddit at /u/Nicholassena8190
