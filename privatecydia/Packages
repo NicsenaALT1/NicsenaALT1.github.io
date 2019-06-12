@@ -1,6 +1,6 @@
 Package: com.nicsena.wifiutil
 Section: Tweaks
-Maintainer: Nicsena <email@email.com>
+Maintainer: Nicsena <Nicholassena8190@gmail.com>
 Architecture: iphoneos-arm
 Version: 1.0.0-98
 Filename: ./debs/com.nicsena.wifiutil_1.0.0-98.deb
@@ -10,5 +10,5 @@ SHA1: BFEE270473540B043359AA03175CA91C5487A547
 SHA256: ED97695DF9BD3E4ADBDDC32883A9F49002A89D9C0F0E7E10412283430CF7ADF4
 Description: iOS command-line tool for WiFi-related operation.
 Name: WifiUtil
-Author: Nicsena <email@email.com>
+Author: Nicsena <Nicholassena8190@email.com>
 

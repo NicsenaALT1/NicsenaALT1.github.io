@@ -1,56 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Reposi3</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<title>Nicsena's Cydia Repo</title>
+	<base target="_top">
+	<link rel="stylesheet" type="text/css" href="./depictions/resources/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="./depictions/resources/css/animate.css"/>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<script type="text/javascript" src="./depictions/resources/js/thankssaurik.js"></script>
+	<script type="text/javascript" src="./depictions/resources/js/themeswitch.js"></script>
+	<script type="text/javascript" src="./depictions/resources/js/break.js"></script>
+	<link rel="apple-touch-icon" sizes="120x120" href="./depictions/resources/logo/120.png">
 </head>
-<body>
 
-<div class="container">
-	<h1><img src="Websiteicon.png"> Nicsena's Cydia Repo</h1>
+<br>
+<body class="pinstripe animated fadeInUp">
+
+<panel>
+<center>
+<div class="animated fadeInDownBig" onclick="broken()">
+<img id="Header" class="headerImg" src="./depictions/resources/logo/Header/Repo Header.png" alt="LacertosusRepository" style="width:320px;height:240px;">
+<p id="SecretText" class="hiddenText">Aw, look what you've done!</p>
 </div>
+</center>
 
-<div class="container">
-	<div class="well">
-		<p><span class="text-primary"><b>Nicsena's Cydia Repo</span> is a repo with people requesting other tweaks and other stuff to be added.</p>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nicsena.github.io/cydia/">Add to Cydia</a>
-	</div>
+<block class="animated fadeIn" onclick="fix()">
+<fieldset>
+<label>
+<center>
+<strong>Nicsena's Cydia Repo</strong>
+</center>
+</label>
+</fieldset>
+</block>
+
+<label>Repo Status:</label>
+<fieldset>
+<div>
+<div>
+<label>
+<center>
+  <p>The Repo is currently down, having issues.</a>
+</center>
+</fieldset>
+
+<label>Recent:</label>
+<fieldset>
+<div>
+<div>
+<label>
+<center>
+  <p>Check out News!</a>
+  <br><br>
+  <p>Added WiFiUtil to the repo!<a></a>
+  <br><br>
+</center>
+</fieldset>
+
+<label>Featured Packages:</label>
+<fieldset>
+<div>
+<div>
+<label>
+<center>
+  <p>There are currently no Featured Packages.</a>
+  <br><br>
+  <p> </a>
+  <br><br>
+</center>
+</fieldset>
+
+<label>Add Repo:</label>
+<fieldset>
+<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nicsena.github.io/cydia/">
+<img class="icon" src="./depictions/resources/icons/cydia.png">
+<div>
+<div>
+<label>
+<p>Add to Cydia</p>
+</label>
 </div>
-
-<div class="container">
-  <h3 id="wells" class="page-header">Featured Packages</h3>
 </div>
-
-<div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">WifiUtil</div>
-	  <div class="panel-body">
-		iOS command-line tool for WiFi-related operation.
-		<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.nicsena.wifiutil">More info</a>
-	  </div>
-	</div>
-
-	<div class="panel panel-default">
-	  <div class="panel-heading">New Package</div>
-	  <div class="panel-body">
-		This is a sample package with lots of information.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.newpackage">More info</a>
-	  </div>
-	</div>
-
-	<div class="panel panel-default">
-	  <div class="panel-heading">Test</div>
-	  <div class="panel-body">
-		Test<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.supermamon.newpackage">More info</a>
-	  </div>
-	</div>
+</a>
+<a>
+<img class="icon" src="./depictions/resources/icons/url.png">
+<div>
+<div>
+<label>
+<p>URL</p>
+</label>
+<input type="text" value="https://nicsena.github.io/cydia/" onclick="setSelectionRange(0,31)" style="width: 210px;" readonly>
 </div>
 </div>
+</a>
+</fieldset>
 
+<label>About Hosting:</label>
+<fieldset>
+<div>
+<div>
+<label>
+<center>
+<p>I can host your packages on my repo. I will require the source to avoid malicious tweaks.</p>
+</center>
+</label>
+</div>
+</div>
+<a href="./depictions/resources/submission.html">
+<img class="icon" src="./depictions/resources/icons/submission.png" width="58" height="58">
+<div>
+<div>
+<label>
+<p>Submission Form</p>
+</label>
+</div>
+</div>
+</a>
+</fieldset>
+
+<label>Other:</label>
+<fieldset>
+
+		<a href="./depictions/resources/news.html">
+			<img class="icon" src="./depictions/resources/icons/news.png" width="58" height="58">
+			<div>
+			<div>
+			<label>
+			<p>News</p>
+			</label>
+			</div>
+			</div>
+			</a>
+<a href="https://github.com/Nicsena">
+<img class="icon" src="./depictions/resources/icons/github.png" width="58" height="58">
+<div>
+<div>
+<label>
+<p>GitHub</p>
+</label>
+</div>
+</div>
+</a>
+<a href="./depictions/resources/donate.html">
+<img class="icon" src="./depictions/resources/icons/donate.png" width="58" height="58">
+<div>
+<div>
+<label>
+<p>Donate</p>
+</label>
+</div>
+</div>
+</a>
+<a href="./depictions/resources/contact.html">
+<img class="icon" src="./depictions/resources/icons/contact.png" width="58" height="58">
+<div>
+<div>
+<label>
+<p>Contact Me</p>
+</label>
+</div>
+</div>
+</a>
+<a href="./depictions/resources/help.html">
+<img class="icon" src="./depictions/resources/icons/help.png" width="58" height="58">
+<div>
+<div>
+<label>
+<p>Help</p>
+</label>
+</div>
+</div>
+</a>
+</fieldset>
+
+
+<label>Thanks:</label>
+<fieldset>
+<div>
+<div>
+<label>
+<p>Thank you to Elijah and Andrew for the depiction styles!</p>
+</label>
+</div>
+</div>
+</fieldset>
+
+<center>
+<button id="ThemeButton" class="button" onclick="switchTheme()">Dark Theme</button>
+</center>
+<br>
+
+</div>
+</panel>
 </body>
 </html>
