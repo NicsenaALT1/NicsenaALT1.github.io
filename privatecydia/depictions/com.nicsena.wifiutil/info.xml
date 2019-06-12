@@ -1,26 +1,26 @@
 package
-    idcom.nicsena.wifiutilid
-    nameWifiUtilname
-    version1.0.0-98version
+    id com.nicsena.wifiutil id
+    name WifiUtil name
+    version 1.0.0-98 version
     dependenciesdependencies
     descriptionlist
-        descriptioniOS command-line tool for WiFi-related operation.
+        description iOS command-line tool for WiFi-related operation.
 
-wifiutil help
-wifiutil enable-wifi
-wifiutil disable-wifi
-wifiutil scan
-wifiutil associate 
-wifiutil associate -p 
-wifiutil disassociate
+    wifiutil help
+    wifiutil enable-wifi
+    wifiutil disable-wifi
+    wifiutil scan
+    wifiutil associate 
+    wifiutil associate -p 
+    wifiutil disassociate
 
-This is a console utility, you may access it using MobileTerminal or remote SSH. No icons are added to your device homescreen.
+    This is a console utility, you may access it using MobileTerminal or remote SSH. No icons are added to your device homescreen.
 
-Files installed in /usr/bindescription
+    Files installed in /usr/bin description
     descriptionlist
     screenshotsscreenshots
     changelog
-        changev0.0.1-98:
+        change v0.0.1-98:
 Add "wifiutil help" to display usage.change
     changelog
     linkslinks
